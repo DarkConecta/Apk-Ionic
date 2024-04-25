@@ -1,0 +1,7 @@
+{
+  "name": "Apk-Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
