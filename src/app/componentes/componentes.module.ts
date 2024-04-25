@@ -4,10 +4,10 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [EncabezadoComponent],
   imports: [
-    CommonModule,
-    EncabezadoComponent
-  ]
+    CommonModule
+  ],
+  exports: [EncabezadoComponent]
 })
 export class ComponentesModule { }

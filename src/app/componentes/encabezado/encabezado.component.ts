@@ -8,7 +8,8 @@ import { Component, OnInit, input } from '@angular/core';
 export class EncabezadoComponent  implements OnInit {
 
   constructor() { }
-  @input() titulo:string="";
+
+  @Input() titulo:string="";
   ngOnInit() {}
 
 }
